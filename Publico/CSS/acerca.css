@@ -1,0 +1,79 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    background-image: linear-gradient(rgba(27, 117, 117,0.6),rgba(153, 248, 248,0.6));
+}
+.Principio{
+    padding: 60px;
+    background-image: url(../Publico/Imagenes/fondo-registro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    color: azure;
+}
+.div-Bienvenida{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: linear-gradient(rgba(103, 103, 214, 0.8),rgba(39, 39, 224, 0.5));
+}
+.div-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.div-navbar a{
+    font-size: 24px;
+    margin: 20px;
+    text-decoration: none;
+    color: azure;
+    margin-top: 20px;
+}
+a:hover{
+    padding: 5px;
+    background: #2373db;
+    color: azure;
+    border-radius: 7px;
+}
+.contenedor_imagenes{
+    background: #2373db;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+}
+.contenedor_imagenes h1{
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #488de7;
+}
+.contenedor_imagenes img{
+    padding: 10px;
+    border-radius: 20px;
+    background: #488de7;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 30vh;
+    height: 40vh;
+}
+.contenedor_textos h3{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #488de7;
+}
+.zona-informacion h1{
+    text-align: center;
+}
+.zona-texto{
+    background: #2373db;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.zona-texto h2{
+    display: inline-block;
+    font-size: 24px;
+}
